@@ -1,0 +1,16 @@
+# Ignore virtual environment
+venv/
+
+# Ignore caches and system files
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.sqlite3
+.DS_Store
+
+# Ignore environment variables and configs
+.env
+
+# Ignore nested git repo
+backend_flask/.git/
